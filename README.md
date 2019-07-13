@@ -5,8 +5,8 @@ Welcome file
 ## Small time batch script developer and I just make scripts in my free time but this one is different. It's my first one I have put up online.
 
 **Back story on how I began this project:**
-I'm in collage year 11 and me and some other students in our robotic class wanted to play Minecraft but there were some problems
-1: No one knew how to get to the default Minecraft folder 
+I'm in collage year 11 and me and some other students in our robotic class wanted to play Minecraft but there were some problems  
+1: No one knew how to get to the default Minecraft folder   
 2: The collage had a proxy so the clients couldn't connect to the authentication servers for login
 
 **Problem 1 solution**
