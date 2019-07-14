@@ -1,3 +1,4 @@
+
 # **ReactiveSlimes Minecraft Batch Launcher**
 
 ## Small time batch script developer and I just make scripts in my free time but this one is different. It's my first one I have put up online.
@@ -48,4 +49,4 @@ If the user has Minecraft open the other options will be disabled until Minecraf
 ## Making Changes And Updating
 
 To begin download the setup.bat file and it will make two folders and download Minecraft and after that run the run file (run.bat)
-The batch file has an updater that will update the file on every run so if you make changes to the file on line five put REM at the start to so it gets ignored
+The batch file has an updater that will update the file on every run so if you make changes to the file on line five put REM at the start to so it gets ignored and your edit doesn't disappear
