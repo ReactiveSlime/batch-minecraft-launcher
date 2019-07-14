@@ -44,3 +44,8 @@ A normal user will have seven option to choose from when logged in
  - Log out
 
 If the user has Minecraft open the other options will be disabled until Minecraft is closed. I will try to change that in a later update
+
+## Making Changes And Updating
+
+To begin download the setup.bat file and it will make two folders and download Minecraft and after that run the run file (run.bat)
+The batch file has an updater that will update the file on every run so if you make changes to the file on line five put REM at the start to so it gets ignored
