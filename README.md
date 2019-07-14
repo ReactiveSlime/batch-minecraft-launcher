@@ -1,12 +1,10 @@
-Welcome file
-Welcome file
 # **ReactiveSlimes Minecraft Batch Launcher**
 
 ## Small time batch script developer and I just make scripts in my free time but this one is different. It's my first one I have put up online.
 
 **Back story on how I began this project:**
-I'm in collage year 11 and me and some other students in our robotic class wanted to play Minecraft but there were some problems  
-1: No one knew how to get to the default Minecraft folder   
+I'm in collage year 11 and me and some other students in our robotic class wanted to play Minecraft but there were some problems
+1: No one knew how to get to the default Minecraft folder 
 2: The collage had a proxy so the clients couldn't connect to the authentication servers for login
 
 **Problem 1 solution**
@@ -24,3 +22,25 @@ A friend of mine has a shared family computer and sometimes the younger siblings
 
 
 # Features
+**Admin**
+To get to the admin panel run the batch file and on the first menu type "admin" without the "" and the default password is "password" also without the ""
+Admin has five option to choose from
+
+ - List Users
+ - Delete Users
+ - Log out
+ - Change User Password (WIP)
+ - Change Admin Password
+
+**Normal User**
+A normal user will have seven option to choose from when logged in
+
+ - Play Minecraft
+ - Delete Account
+ - Change Password
+ - Open Minecraft Folder
+ - Open Saves Folder 
+ - Open Texture Packs Folder
+ - Log out
+
+If the user has Minecraft open the other options will be disabled until Minecraft is closed. I will try to change that in a later update
