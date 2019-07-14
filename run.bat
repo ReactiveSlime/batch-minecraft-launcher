@@ -2,7 +2,7 @@
 cls
 rem gets latest version
 echo Getting Latest Version
-curl -o run.bat "https://www.dropbox.com/s/mavegevzttdbeqw/run.bat?dl=1" -L
+curl -o run.bat "https://raw.githubusercontent.com/ReactiveSlime/batch-minecraft-launcher/master/run.bat" -L
 
 rem main menu
 :main
