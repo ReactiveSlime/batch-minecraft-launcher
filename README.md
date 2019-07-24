@@ -51,6 +51,8 @@ If the user has Minecraft open the other options will be disabled until Minecraf
  1. setup.bat option to use legacy launcher or new launcher by default
  2. change option in admin panel
  3. make option account based?
+ 4. Make Admin Change User Password
+ 5. Make Imput case Sensitive
 
 ## Making Changes And Updating
 
