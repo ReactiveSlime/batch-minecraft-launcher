@@ -52,7 +52,8 @@ If the user has Minecraft open the other options will be disabled until Minecraf
  2. change option in admin panel
  3. make option account based?
  4. Make Admin Change User Password
- 5. Make Imput case Sensitive
+ 5. Make Imput case Sensitive (Half Done)
+ 6. Hash Password
 
 ## Making Changes And Updating
 
