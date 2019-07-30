@@ -25,13 +25,19 @@ rem log in
 :login
 cls
 set /p name=Username: 
-if not exist "%name%.bat" (
-echo That Is Not a Valid Username.
+if exist %name%.bat (
+call %name%.bat
+) else (
+echo Invalid Username
+goto main
+)
+
+if not %username% EQU %name% (
+echo Invalid Username
 pause>nul
 goto main
 )
 set /p pass=Password: 
-call "%name%.bat"
 if not %password% EQU %pass% (
 echo That Is Not A valid Password.
 pause>nul
