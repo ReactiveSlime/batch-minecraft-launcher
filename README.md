@@ -52,7 +52,7 @@ If the user has Minecraft open the other options will be disabled until Minecraf
  2. change option in admin panel
  3. make option account based?
  4. Make Admin Change User Password
- 5. Make Imput case Sensitive (Half Done)
+ 5. Make Imput case Sensitive (Done)
  6. Hash Password
 
 ## Making Changes And Updating
@@ -61,4 +61,4 @@ To begin download the setup.bat file and it will make two folders and download M
 The batch file has an updater that will update the file on every run so if you make changes to the file on line five put REM at the start to so it gets ignored and your edit doesn't disappear
 
 ## Known Bugs
-Only the password in case sensitive and not the username. I don't know what causes and and can't fix (i think i know why but need further testing)
+None
