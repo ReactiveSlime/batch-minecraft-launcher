@@ -61,4 +61,4 @@ To begin download the setup.bat file and it will make two folders and download M
 The batch file has an updater that will update the file on every run so if you make changes to the file on line five put REM at the start to so it gets ignored and your edit doesn't disappear
 
 ## Known Bugs
-Only the password in case sensitive and not the username. I don't know what causes and and can't fix
+Only the password in case sensitive and not the username. I don't know what causes and and can't fix (i think i know why but need further testing)
