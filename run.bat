@@ -15,8 +15,8 @@ set /p build=<version.txt
 if %build% EQU %current_build% (
 goto main
 ) else (
-goto update
 echo|set /p="1">Version.txt
+goto update
 pause
 )
 
