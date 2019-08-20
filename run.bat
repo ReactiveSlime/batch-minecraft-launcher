@@ -10,12 +10,12 @@ cls
 if not exist version.txt (
 echo|set /p="0">Version.txt
 )
-set current_build=2
+set current_build=3
 set /p build=<version.txt
 if %build% EQU %current_build% (
 goto main
 ) else (
-echo|set /p="2">Version.txt
+echo|set /p="3">Version.txt
 goto update
 pause
 )
