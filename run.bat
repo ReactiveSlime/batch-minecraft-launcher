@@ -2,7 +2,7 @@
 cls
 rem gets latest version
 echo Getting Latest Version
-curl -o run.bat "https://raw.githubusercontent.com/ReactiveSlime/batch-minecraft-launcher/master/run.bat?_=%date%" -L
+curl -o run.bat "https://raw.githubusercontent.com/ReactiveSlime/batch-minecraft-launcher/master/run.bat?_=%time%" -L
 
 rem check if latest version is downloaded
 cls
@@ -264,6 +264,6 @@ echo.
 echo Changelog
 echo.
 echo Can not interact with the command line while Minecraft is open
-echo fixed problem with file being cached and downloading the latest update
+echo fixed problem with file being cached and not downloading the latest update
 pause>nul
 goto main
