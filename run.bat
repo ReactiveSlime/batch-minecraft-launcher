@@ -10,7 +10,7 @@ cls
 if not exist version.txt (
 echo|set /p="0">Version.txt
 )
-set current_build=1
+set current_build=2
 set /p build=<version.txt
 if %build% EQU %current_build% (
 goto main
@@ -90,7 +90,7 @@ goto loginsettings
 
 rem launches minecraft launcher in users folder (/data/username)
 :play
-"%cd%\bin\Minecraft.exe" --workDir "%cd%\data\%name%"
+start "" "%cd%\bin\Minecraft.exe" --workDir "%cd%\data\%name%"
 goto loginsettings
 
 rem change users password
@@ -258,11 +258,11 @@ pause>nul
 goto main
 
 :update
-echo Update 19/08/2019
+echo Update 20/08/2019
 echo.
 echo.
 echo Changelog
 echo.
-echo Added this menu when launcher updates
+echo Can not interact with the command line while Minecraft is open
 pause>nul
 goto main
