@@ -264,10 +264,11 @@ echo.
 echo Update 21/08/2019
 echo.
 echo Fixed update again
+echo Fixed Typos
 echo.
 echo Update 20/08/2019
 echo.
-echo Can not interact with the command line while Minecraft is open
+echo Can now interact with the command line while Minecraft is open
 echo fixed problem with file being cached and not downloading the latest update
 pause>nul
 goto main
