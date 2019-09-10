@@ -10,15 +10,46 @@ cls
 if not exist version.txt (
 echo|set /p="0">Version.txt
 )
-set current_build=3
+set current_build=4
 set /p build=<version.txt
 if %build% EQU %current_build% (
-goto main
+goto argument
 ) else (
-echo|set /p="3">Version.txt
+echo|set /p="4">Version.txt
 goto update
 pause
 )
+
+rem passes argument 1 and 2 as usernaem and password and logs in if correct
+
+:argument
+IF "%1"=="" ( goto main 
+) else (
+echo Logging In
+)
+
+set name=%1
+if exist %name%.bat (
+call %name%.bat
+) else (
+echo Invalid Username
+pause>nul
+goto main
+)
+rem makes username case sensitive
+if not %name% EQU %username% (
+echo Invalid Username
+pause>nul
+goto main
+)
+
+set pass=%2
+if not %pass% EQU %password% (
+echo That Is Not A valid Password.
+pause>nul
+goto main
+)
+goto loginsettings
 
 rem main menu
 :main
@@ -67,7 +98,7 @@ goto loginsettings
 rem user settings
 :loginsettings
 cls
-echo What Would You Like To Do?
+echo What Would You Like To Do %username%?
 echo.
 echo 1) Play Minecraft
 echo 2) Delete Account
@@ -260,6 +291,11 @@ goto main
 :update
 echo Changelog
 echo.
+echo.
+echo Update 10/09/2019
+echo.
+echo Can Now login in command prompt e.g. open cmd cd to this folder and type run username password
+echo replacing username and password with yours
 echo.
 echo Update 21/08/2019
 echo.
