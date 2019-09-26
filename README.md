@@ -1,6 +1,9 @@
 
 # **ReactiveSlimes Minecraft Batch Launcher**
 
+## Getting Started
+To begin using the launcher all you need to do it download the setup.bat file put it into its own folder as it makes folder/files and double run the setup.bat and that is it
+
 ## Small time batch script developer and I just make scripts in my free time but this one is different. It's my first one I have put up online.
 
 **Back story on how I began this project:**
