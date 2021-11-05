@@ -103,7 +103,7 @@ echo.
 echo 1) Play Minecraft
 echo 2) Delete Account
 echo 3) Change Password
-echo 4) Open Mincrat Folder
+echo 4) Open Minecraft Folder
 echo 5) Open Minecraft Saves Folder
 echo 6) Open Minecraft Textures Folder
 echo 7) Log Out
