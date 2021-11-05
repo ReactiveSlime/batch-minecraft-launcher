@@ -10,12 +10,12 @@ cls
 if not exist version.txt (
 echo|set /p="0">Version.txt
 )
-set current_build=4
+set current_build=5
 set /p build=<version.txt
 if %build% EQU %current_build% (
 goto argument
 ) else (
-echo|set /p="4">Version.txt
+echo|set /p="5">Version.txt
 goto update
 pause
 )
@@ -291,6 +291,10 @@ goto main
 :update
 echo Changelog
 echo.
+echo.
+echo.Update 05/11/2021
+echo.
+echo Fixed a typo
 echo.
 echo Update 10/09/2019
 echo.
